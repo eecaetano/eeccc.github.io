@@ -39,23 +39,38 @@
             <option value="2ª">2ª</option>
             <option value="3ª">3ª</option>
         </select>
-        <br>
-<br>
-        <label for="class">Turma:</label>
-        <select id="class" name="class" required>
-            <option value="A">A</option>
-            <option value="B">B</option>
-            <option value="C">C</option>
-            <option value="D">D</option>
-            <option value="E">E</option>
-        </select>
-        <br>
-<br>
+  <br>
         <button type="submit">Verificar</button>
     </form>
     <p id="result"></p>
 
-    <script src="script.js"></script>
-</center>
+    <script>
+        // Função para carregar o arquivo JSON
+        async function loadJSON() {
+            const response = await fetch('ra.json');
+            const data = await response.json();
+            return data;
+        }
+
+        document.getElementById('verificationForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const grade = document.getElementById('grade').value;
+            const classGroup = document.getElementById('class').value;
+            const result = document.getElementById('result');
+
+            const directory = await loadJSON();
+
+            const user = directory.ra.find(user => user["NOME COMPLETO"] === name && user["SÉRIE"] === grade && user["TURMA"] === classGroup);
+
+            if (user) {
+                result.textContent = `Número de Registro Acadêmico: ${user["NÚMERO DO REGISTRO"]}`;
+            } else {
+                result.textContent = 'Informações não encontradas ou incompatíveis.';
+            }
+        });
+    </script>
+<center>
 </body>
 </html>
