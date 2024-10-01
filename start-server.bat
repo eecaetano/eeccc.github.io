@@ -1,3 +1,3 @@
 @echo off
-cd C:\Users\educ_\project-root
+cd F:\USBS\project-root
 node server.js
