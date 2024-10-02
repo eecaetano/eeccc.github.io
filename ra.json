@@ -1,8 +1,110 @@
 {
 "ra":[
+  {
+  "NOME COMPLETO": "REGES RODRIGUES",
+  "SÉRIE": "3ª",
+  "TURMA": "D",
+  "NÚMERO DO REGISTRO": "NA NA NI NA NÃO TEM ALUNO NENHUM COM ESSE NOME PROFESSOR REGES !"
+ },
+ {
+  "NOME COMPLETO": "REGES RODRIGUES",
+  "SÉRIE": "3ª",
+  "TURMA": "B",
+  "NÚMERO DO REGISTRO": "SE MEUS PARAFUSOS NÃO ESTÃO FROUXOS, REGES VC NÃO É ALUNO!"
+ },
+  {
+  "NOME COMPLETO": "REGES RODRIGUES",
+  "SÉRIE": "3ª",
+  "TURMA": "A",
+  "NÚMERO DO REGISTRO": "SE MEUS PARAFUSOS NÃO ESTÃO FROUXOS, REGES VC NÃO É ALUNO!"
+ },
+ {
+  "NOME COMPLETO": "REGES RODRIGUES",
+  "SÉRIE": "2ª",
+  "TURMA": "B",
+  "NÚMERO DO REGISTRO": "NA NA NI NA NÃO É ALUNO É PROFESSOR!"
+ },
+ {
+  "NOME COMPLETO": "REGES RODRIGUES",
+  "SÉRIE": "2ª",
+  "TURMA": "A",
+  "NÚMERO DO REGISTRO": "Minha pesquisa encontrou PROFESSOR REGES R DA SILVA"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "1ª",
+  "TURMA": "C",
+  "NÚMERO DO REGISTRO": "Minha pesquisa encontrou PROFESSORA LILIANE"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "1ª",
+  "TURMA": "A",
+  "NÚMERO DO REGISTRO": "NA NA NI NA NÃO TEM ALUNO NENHUM COM ESSE NOME LILIANE!"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "1ª",
+  "TURMA": "B",
+  "NÚMERO DO REGISTRO": "OLÁ LILIANE, VC NÃO É MAIS ALUNA, VC É PROFESSORA!"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "2ª",
+  "TURMA": "A",
+  "NÚMERO DO REGISTRO": "OLÁ LILIANE, VC É PROFESSORA!"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "2ª",
+  "TURMA": "B",
+  "NÚMERO DO REGISTRO": "OLÁ PROFESSORA LILIANE, vc não possui nenhum número cadastrado"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "3ª",
+  "TURMA": "A",
+  "NÚMERO DO REGISTRO": "OLÁ PROFESSORA LILIANE, vc não possui nenhum número cadastrado"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "1º",
+  "TURMA": "B",
+  "NÚMERO DO REGISTRO": "OLÁ PROFESSORA LILIANE, vc não possui nenhum número cadastrado"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "1º",
+  "TURMA": "C",
+  "NÚMERO DO REGISTRO": "OLÁ PROFESSORA LILIANE, vc não possui nenhum número cadastrado"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "1ª",
+  "TURMA": "D",
+  "NÚMERO DO REGISTRO": "OLÁ PROFESSORA LILIANE, vc não possui nenhum número cadastrado"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "2º",
+  "TURMA": "A",
+  "NÚMERO DO REGISTRO": "OLÁ PROFESSORA LILIANE, vc não possui nenhum número cadastrado"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "2º",
+  "TURMA": "B",
+  "NÚMERO DO REGISTRO": "OLÁ PROFESSORA LILIANE, vc não possui nenhum número cadastrado"
+ },
+ {
+  "NOME COMPLETO": "LILIANE COSTA DO NASCIMENTO",
+  "SÉRIE": "2º",
+  "TURMA": "C",
+  "NÚMERO DO REGISTRO": "OLÁ PROFESSORA LILIANE, vc não possui nenhum número cadastrado"
+ },
  {
   "NOME COMPLETO": "ANDERSON DE OLIVEIRA",
-  "SÉRIE": "1º",
+  "SÉRIE": "3º",
   "TURMA": "A",
   "NÚMERO DO REGISTRO": "OLÁ PROFESSOR"
  },
