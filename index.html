@@ -8,17 +8,33 @@
     <title>Verificação de Registro Acadêmico</title>
     
     <!-- Link para o arquivo CSS local -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Fallback para o arquivo CSS externo -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/w3css_web_css.asp" onerror="this.onerror=null; this.href='styles.css'">
+    <link rel="stylesheet" href="styles.css" id="local-css">
     
     <!-- Link para o arquivo JavaScript local -->
-    <script src="scripts.js" defer></script>
-    <!-- Fallback para o arquivo JavaScript externo -->
-    <script src="https://www.w3schools.com/js/default.asp" defer onerror="this.onerror=null; this.src='scripts.js'"></script>
+    <script src="scripts.js" defer id="local-js"></script>
     
     <meta name="description" content="Página para verificação de registro acadêmico na Escola Estadual Caetano de Campos">
     <meta name="keywords" content="verificação, registro acadêmico, escola, Caetano de Campos">
+    
+    <script>
+        // Verifica se o CSS local foi carregado
+        document.getElementById('local-css').onerror = function() {
+            var fallbackCSS = document.createElement('link');
+            fallbackCSS.rel = 'stylesheet';
+            fallbackCSS.href = 'https://www.w3schools.com/w3css/w3css_web_css.asp';
+            document.head.appendChild(fallbackCSS);
+        };
+
+        // Verifica se o JavaScript local foi carregado
+        document.getElementById('local-js').onerror = function() {
+            var fallbackJS = document.createElement('script');
+            fallbackJS.src = 'https://www.w3schools.com/js/default.asp';
+            fallbackJS.defer = true;
+            document.head.appendChild(fallbackJS);
+        };
+    </script>
+</head>
+
 </head>
 
 <body>
