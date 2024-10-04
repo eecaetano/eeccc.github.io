@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="no-disallowed-headers" content="true">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificação de Registro Acadêmico</title>
+    <link rel="stylesheet" href="styles.css"> <!-- https://www.w3schools.com/css/default.asp -->
+    <script src="scripts.js" defer></script> <!-- https://www.w3schools.com/js/default.asp -->
+    <meta name="description" content="Página para verificação de registro acadêmico na Escola Estadual Caetano de Campos">
+    <meta name="keywords" content="verificação, registro acadêmico, escola, Caetano de Campos">
+   
 </head>
 <body>
  <div class="bg-cinza">
@@ -21,11 +27,11 @@
 <br>
    <form id="verificationForm">
         <label for="name">Nome Completo:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" autocomplete="grade" required>
         <br>
 <br>
         <label for="grade">Série:</label>
-        <select id="grade" name="grade" required>
+        <select id="grade" name="grade" autocomplete="grade" autocomplete="grade" required>
             <option value="1º">1º</option>
             <option value="2º">2º</option>
             <option value="3º">3º</option>
@@ -42,7 +48,7 @@
      <br>
 <br>
         <label for="class">Turma:</label>
-        <select id="class" name="class" required>
+        <select id="class" name="class" autocomplete="class" required>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
