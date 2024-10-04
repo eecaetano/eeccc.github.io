@@ -24,3 +24,11 @@ document.getElementById('verificationForm').addEventListener('submit', async fun
         result.textContent = 'VERIFIQUE OS DADOS INFORMADOS E TENTE NOVAMENTE.'
     }
 });
+     // Obtém a data e hora atuais
+    const now = new Date();
+    const date = now.toLocaleDateString('pt-BR');
+    const time = now.toLocaleTimeString('pt-BR');
+
+    // Exibe as informações do estudante e a data/hora da pesquisa
+    document.getElementById('student-info').textContent = studentInfo;
+    document.getElementById('search-datetime').textContent = `Pesquisa realizada no dia: ${date} / hora: ${time}`;
