@@ -88,7 +88,10 @@
     <p id="result"></p>
 
           <br>
-
+<div id="search-result">
+                            <p id="student-info"></p>
+                            <p id="search-datetime"></p>
+                        </div>
     <script>
         // Função para carregar o arquivo JSON
         async function loadJSON() {
@@ -115,6 +118,16 @@
                 result.textContent = 'Informações não encontradas ou incompatíveis.';
             }
         });
+
+        // Obtém a data e hora atuais
+    const now = new Date();
+    const date = now.toLocaleDateString('pt-BR');
+    const time = now.toLocaleTimeString('pt-BR');
+
+    // Exibe as informações do estudante e a data/hora da pesquisa
+    document.getElementById('student-info').textContent = studentInfo;
+    document.getElementById('search-datetime').textContent = `Pesquisa realizada no dia: ${date} / hora: ${time}`;
+        
     </script>
 <center>
 </body>
